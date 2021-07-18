@@ -1,4 +1,4 @@
-public class DivideByThreeFive {
+public class DivideByThreeFiveHard {
     public static void main(String[] args) {
         //this is an array and this is the amount of multiples in three five and 15
         int[] multipleOfThree = new int[33];
