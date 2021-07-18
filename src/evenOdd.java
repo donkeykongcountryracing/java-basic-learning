@@ -7,7 +7,8 @@ public class evenOdd {
         Scanner sc = new Scanner(System.in);
         System.out.println("type one number");
         int original = sc.nextInt();
-        if (original % 2 == 0) {  //% is divide sign but it finds what the remainder of the equation is not the answer
+        //% is divide sign but it finds what the remainder of the equation is not the answer
+        if (original % 2 == 0) {
             System.out.println("1");
         } else {
             System.out.println("0");
