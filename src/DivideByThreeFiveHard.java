@@ -1,11 +1,11 @@
 public class DivideByThreeFiveHard {
     public static void main(String[] args) {
-        //this is an array and this is the amount of multiples in three five and 15
+        //this is an array and this is the number of multiples in three five and 15
         int[] multipleOfThree = new int[33];
         int[] multipleOfFive = new int[20];
         int[] multipleOfThreeAndFive = new int[6];
-        //this is the index of each of the multiples in the arrays above
 
+        //this is the index of each of the multiples in the arrays above
         int index3 = 0;
         int index5 = 0;
         int index3and5 = 0;
