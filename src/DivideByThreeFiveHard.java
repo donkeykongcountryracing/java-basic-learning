@@ -1,7 +1,7 @@
 public class DivideByThreeFiveHard {
     public static void main(String[] args) {
         //this is an array and this is the number of multiples in three five and 15
-        int[] multipleOfThree = new int[33];
+        int[] multipleOfThree = new int[33];     //array always starts with 0 so this is 0-32 instead of 1-33, this is why i in the printing section starts with 0 instead of 1
         int[] multipleOfFive = new int[20];
         int[] multipleOfThreeAndFive = new int[6];
 
@@ -25,7 +25,6 @@ public class DivideByThreeFiveHard {
                 index3and5++;
             }
         }
-
         System.out.println("divided by 3: ");
         for (int i = 0; i < multipleOfThree.length; i++) {
             System.out.print(multipleOfThree[i] + ", ");// the bracket in the array shows the position of each number and the value that corresponds with it
