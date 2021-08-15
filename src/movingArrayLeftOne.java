@@ -11,18 +11,18 @@ public class movingArrayLeftOne {
             int arrayContents = sc.nextInt();
             array[y] = arrayContents;
         }
-        for (int y = 0; y < lengthOfArray-1; y++) {
-            System.out.print(array[y] + " " );
+        for (int y = 0; y < lengthOfArray; y++) {
+            System.out.print(array[y] + " ");
         }
-        System.out.println(array[lengthOfArray-1]);
+        System.out.println();
 
-        int[] newArray= new int[lengthOfArray];
-        newArray[lengthOfArray-1]=array[0];
-        for(int x=0;x<lengthOfArray-1;x++){
-            newArray[x]=array[x+1];//have to find a way to not make array and new array reference each other
-            System.out.print(newArray[x]+" ");
+        int[] newArray = new int[lengthOfArray];
+        newArray[lengthOfArray - 1] = array[0];
+        for (int x = 0; x < lengthOfArray - 1; x++) {
+            newArray[x] = array[x + 1];//have to find a way to not make array and new array reference each other
+            System.out.print(newArray[x] + " ");
         }
-        System.out.print(newArray[lengthOfArray-1]+" ");
+        System.out.print(newArray[lengthOfArray - 1]);
 
     }
 }
